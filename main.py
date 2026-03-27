@@ -73,7 +73,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
         
           result = {"red": "Ohh No you fell into fire!🔥🔥🔥 \n Game Over!",
                     "green": "OMG Snakes!🐍🐍🐍\n Game Over! " }
-          print("You chose the door", end="", flush=True)
+          print("Lets see whats behind the door", end="", flush=True)
 
           for i in range(3):
            time.sleep(0.5)
