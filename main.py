@@ -102,7 +102,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
          print(".", end="",flush=True) 
          
          time.sleep(0.3)
-    print("Oops! 🌲🌫️you got lost in forest\n Game Over!!") 
+    print("\nOops!🌲🌫️  you got lost in forest\n Game Over!!") 
    
 
    play_again = input("\nPlay again? (yes/no)\n").lower()
