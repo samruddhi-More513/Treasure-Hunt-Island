@@ -39,6 +39,16 @@ ___________                                                     ___ ___         
     if river== "boat":
         door = input("\nHeres the boat!\nFinally you are at the island but there are three doors over here!\nWhich one will you choose? Red, Yellow Or Green?\n").lower().strip()
         if door == "yellow":
+            print("Lets see whats behind the door", end="", flush=True)
+
+            for i in range(3):
+              time.sleep(1)
+              print(".", end="", flush=True)
+            
+            time.sleep(1)
+            print("\n")
+            
+            print("\nOhhh yeah!! 💰💰The Treasure Found💰💰\nYou Won!🎉\nCONGRATULATIONS!!!!🎉🎉")
             print(r''' *******************************************************************************
           |                   |                  |                     |
  _________|________________.=""_;=.______________|_____________________|_______
@@ -59,7 +69,6 @@ ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
 ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 /______/______/______/______/______/______/______/______/______/______/_____ /
 ******************************************************************************* ''')
-            print("\nOhhh yeah!! 💰💰The Treasure Found💰💰 You Won!🎉  \n    CONGRATULATIONS!!!!🎉🎉")
         elif door in ["red", "green"]:
         
           result = {"red": "Ohh No you fell into fire!🔥🔥🔥 \n Game Over!",
